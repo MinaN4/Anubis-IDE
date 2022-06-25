@@ -280,7 +280,7 @@ class UI(QMainWindow):
         filemenu = menu.addMenu('File')
         Port = menu.addMenu('Port')
         Run = menu.addMenu('Run')
-        languagemenu = menu.addMenu('language')
+        languagemenu = menu.addMenu('Fast Execute')
 
         # As any PC or laptop have many ports, so I need to list them to the User
         # so I made (Port_Action) to add the Ports got from (serial_ports()) function
